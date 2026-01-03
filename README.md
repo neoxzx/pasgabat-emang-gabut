@@ -1,1 +1,1 @@
-# pasgabat-emang-gabut
+# gbut-aja
