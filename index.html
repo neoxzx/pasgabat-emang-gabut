@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PASGABAT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="pasgabat.jpeg" alt="PASGABAT" width="50" height="50"> PASGABAT
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Structure.html">Structure</a></li>
+                    <li class="nav-item"><a class="nav-link" href="documentation.html">Documentation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section dengan Slideshow -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>WELCOME TO PASGABAT</h1>
+            <p>Need more silent...</p>
+        </div>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="bg.jpeg" alt="Hero 1">
+            </div>
+            <div class="slide fade">
+                <img src="yash.jpeg" alt="Hero 2">
+            </div>
+            <div class="slide fade">
+                <img src="images/hero3.jpg" alt="Hero 3">
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+
+    <!-- Section Tentang -->
+    <section id="visi" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Visi & Misi</h2>
+            <p>VISI:
+"Menjadi orang baik dan smart paling tidak jelas di muka bumi yang menjunjung tinggi nilai-nilai kegabutan, di mana tawa tidak memiliki konteks, dan rencana jalan-jalan tetap menjadi wacana abadi yang dicintai."</p>
+            <p>MiSI: MISI
+Transformasi Wacana: Berusaha sekuat tenaga untuk merencanakan pertemuan di grup WhatsApp setiap hari, meski pada akhirnya berakhir dengan hanya saling mengirim stiker tanpa ada yang berangkat.
+
+Keseimbangan Gender & Beban: Memberdayakan 3 cewek untuk menguasai jalur gosip dan estetika konten, serta mengoptimalkan 2 cowok sebagai tenaga angkut, sopir cadangan, dan sasaran bully yang penyabar.
+
+Ketahanan Random: Memastikan minimal ada satu pembahasan tidak jelas setiap harinya (seperti: "Kenapa nasi goreng nggak direbus?") demi menjaga sel saraf grup tetap aktif.
+
+Stalking Terpadu: Membangun jaringan intelijen yang kuat melalui 3 personel cewek untuk memantau aktivitas mencurigakan para mantan atau gebetan anggota grup.
+
+Dokumentasi Aib Nasional: Mengumpulkan foto dan video muka jelek saat sedang tertawa atau tidur sebagai aset investasi masa depan untuk saling mengancam jika ada yang keluar dari grup.</p>
+        </div>
+    </section>
+
+    <!-- Section Berita -->
+    <section id="berita" class="section">
+        <div class="container">
+            <h2 class="text-center mb-4">Kerandoman Terbaru</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="images/berita1.jpg" class="card-img-top" alt="Berita 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Gtay</h5>
+                            <p class="card-text">ya namanya random</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tambah card lainnya -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Kontak -->
+    <section id="kontak" class="section bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Ntah</h2>
+            <p>Alamat: Planet Saturnus</p>
+            <p>Email: Kepo</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container text-center">
+            <p>&copy; 2026 PASGABAT. All rights reserved.</p>
+            <p>&copy;Hidup gausah banyak gaya pake copyright"an, kyak ga pernah ngambil content orang aja, hihi</p>
+            <p>Ikuti kami: <a href="https://www.instagram.com/madebypasgabat/?utm_source=ig_web_button_share_sheet">Instagram</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
